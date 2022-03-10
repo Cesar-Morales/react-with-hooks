@@ -1,6 +1,11 @@
 import React from 'react';
-import Form from './components/Form'
+//import axios from 'axios';
+import Search from './components/Search';
+//import Seconds from './components/Seconds'; quinta
+//import Form from './components/Form' SEC
 //import App2 from './components/App2'      ------> ESTA ES LA PRIMER APP
+//import Counter from './components/Counter' TERCERA
+//import Test from './components/Test'  cuarta
 
 /* Class Component */
 class App extends React.Component{
@@ -8,7 +13,15 @@ class App extends React.Component{
         return(
              <>
                 {/*<App2/>  ESTA ES LA PRIMER APP */}
-                <Form/>
+                {/*<Form/>  ESTA EN LA SEGUNDA*/}
+                {/*<Counter/>  ESTA EN LA TERCERA*/}
+                {/*<Test/> cuarta*/}
+                {/*<Seconds/> quinta*/}
+                <div className="ui grid conteiner center aligned">
+                    <div className='column eight wide'>
+                        <Search/>
+                    </div>
+                </div>
              </>
         );
     }
